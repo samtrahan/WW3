@@ -8,7 +8,7 @@
 # --------------------------------------------------------------------------- #
 # 0. Process command line arguments                                           #
 # --------------------------------------------------------------------------- #
-
+set -x
 # 0.a Error message function
 errmsg ()
 {
@@ -321,9 +321,11 @@ then
        [ "$cmplr" == "gnu" ] || [ "$cmplr" == "gnu_debug" ]                         || \
        [ "$cmplr" == "hera.intel" ] || [ "$cmplr" == "orion.intel" ]                || \
        [ "$cmplr" == "hera.gnu" ]   || [ "$cmplr" == "jet.intel" ]                  || \
+       [ "$cmplr" == "axiom.intel" ]                                                || \
        [ "$cmplr" == "stampede.intel" ] || [ "$cmplr" == "gaea.intel" ]             || \
        [ "$cmplr" == "wcoss2" ] || [ "$cmplr" == "s4.intel" ]                       || \
        [ "$cmplr" == "expanse.intel" ]                                              || \
+       [ "$cmplr" == "axiom.intel" ]                                                || \
        [ "$cmplr" == "cheyenne.intel" ] || [ "$cmplr" == "cheyenne.gnu" ]           || \
        [ "$cmplr" == "wcoss_cray" ] || [ "$cmplr" == "wcoss_dell_p3" ]              || \
        [ "$cmplr" == "datarmor_gnu" ] || [ "$cmplr" == "datarmor_gnu_debug" ]       || \
@@ -355,6 +357,7 @@ then
        [ "$cmplr" == "stampede.intel" ] || [ "$cmplr" == "gaea.intel" ]             || \
        [ "$cmplr" == "wcoss2" ] || [ "$cmplr" == "s4.intel" ]                       || \
        [ "$cmplr" == "expanse.intel" ]                                              || \
+       [ "$cmplr" == "axiom.intel" ]                                                || \
        [ "$cmplr" == "cheyenne.intel" ] || [ "$cmplr" == "cheyenne.gnu" ]           || \
        [ "$cmplr" == "wcoss_cray" ] || [ "$cmplr" == "wcoss_dell_p3" ]              || \
        [ "$cmplr" == "datarmor_gnu" ] || [ "$cmplr" == "datarmor_gnu_debug" ]       || \
@@ -384,6 +387,7 @@ then
        [ "$cmplr" == "hera.intel" ] || [ "$cmplr" == "orion.intel" ]                || \
        [ "$cmplr" == "hera.gnu" ]   || [ "$cmplr" == "jet.intel" ]                  || \
        [ "$cmplr" == "stampede.intel" ] || [ "$cmplr" == "gaea.intel" ]             || \
+       [ "$cmplr" == "axiom.intel" ]                                                || \
        [ "$cmplr" == "wcoss2" ] || [ "$cmplr" == "s4.intel" ] || \
        [ "$cmplr" == "cheyenne.intel" ] || [ "$cmplr" == "cheyenne.gnu" ]           || \
        [ "$cmplr" == "wcoss_cray" ] || [ "$cmplr" == "wcoss_dell_p3" ]              || \
