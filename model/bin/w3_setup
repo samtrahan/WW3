@@ -321,7 +321,6 @@ then
        [ "$cmplr" == "gnu" ] || [ "$cmplr" == "gnu_debug" ]                         || \
        [ "$cmplr" == "hera.intel" ] || [ "$cmplr" == "orion.intel" ]                || \
        [ "$cmplr" == "hera.gnu" ]   || [ "$cmplr" == "jet.intel" ]                  || \
-       [ "$cmplr" == "axiom.intel" ]                                                || \
        [ "$cmplr" == "stampede.intel" ] || [ "$cmplr" == "gaea.intel" ]             || \
        [ "$cmplr" == "wcoss2" ] || [ "$cmplr" == "s4.intel" ]                       || \
        [ "$cmplr" == "expanse.intel" ]                                              || \
